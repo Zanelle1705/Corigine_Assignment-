@@ -24,7 +24,7 @@ The first method solves for *n* in  **Binet's Formula** and checks when the numb
 
 The second method uses an iterative approach to finding the fib sequence; However, it requires the number to be casted to a string in order to find the string length and compare to the *N* value. The assignment suggested to avoid casting variables if possible. Additionally, when *N* gets larger, the execution time is longer than the last two methods described below. 
 
-The third method is my final chosen method and uses the inverse of **Binet's Formula** to find the index of the first term in the Fib sequence to contain *N* digits. The `ceil()` function is used to return the smallest integer greater than or equal to the solution to the inverse of formula. This method is fast and can take very large *N* values. (Tested for 100 000 000)
+The third method is my final chosen method and uses the inverse of **Binet's Formula** to find the index of the first term in the Fib sequence to contain *N* digits. The `ceil()` function is used to return the smallest integer greater than or equal to the solution of the inverse formula. This method is fast and can take very large *N* values. (Tested for 100 000 000)
 
 The final method also iterates over every Fib number in order to find the first index. It works with the principle that 1000 digits satisfies *1e1000 <= fib < 1e1001* and therefore the calculated Fib numbers are bounded and comapred to *10^(N-1)* while accumulating an index number. This method is faster than the second method, but the third method (chosen one) is faster. It also took too long when trying to compute for *N* value of 100 000 000. 
 
