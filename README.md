@@ -7,8 +7,16 @@ To extract the compressed tarball, please run the following command:
 ```bash
 tar -xzvf zanellevorster.tar.gz
 ```
+Next, change directory to the *corig* file with the following command:
+```bash
+cd corig
+```
+Then you have to build the docker image:
+```bash
+docker build -t corig .
+```
 
-It is packaged and executable as a Docker container so in order to run it according to the assignment instructions, use the following command where *corig* is the image name and *N* is input to the algorithmic problem:
+Finally, it is packaged and executable as a Docker container so in order to run it according to the assignment instructions, use the following command where *corig* is the image name and *N* is input to the algorithmic problem:
 
 ```bash
 docker run --rm corig N
