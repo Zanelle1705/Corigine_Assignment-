@@ -21,6 +21,9 @@ Finally, it is packaged and executable as a Docker container so in order to run 
 ```bash
 docker run --rm corig N
 ```
+
+I have also tested and confirmed it on *Docker Playground*. 
+
 ### Program Description
 
 I have attempted four ways to solve the numerical algorithmic problem which I will discuss and also the reasons why I have selected the final method for my submission. In my actual script *(fibonacci-term.py)* all four algorithms are present; However, the methods' which I am not using are commented out. Additionally, comments are used to clearly label the methods.
