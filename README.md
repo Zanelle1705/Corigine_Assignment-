@@ -1,6 +1,6 @@
 # Corigine_Assignment2022
 
-This README file describes my program for Corigine's Recruitment Technical Assignment. 
+This README file describes my (Zanelle Vorster) program for the Corigine Recruitment Technical Assignment. 
 
 To extract the compressed tarball, please run the following command:
 
